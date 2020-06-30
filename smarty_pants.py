@@ -1,6 +1,6 @@
 import re
 
-def list_fun(list):
+def list_exercise(list):
     # Check that list is only int/real numbers and return error if otherwise
     for number in list:
         if type(number) != int:
@@ -31,7 +31,7 @@ def list_fun(list):
 ###Smarty Pants
 
 
-for number in range(1,102):
+for number in range(1,201):
     if (number % 3) == 0:
         if (number % 5) == 0:
             print("SmartyPants")
